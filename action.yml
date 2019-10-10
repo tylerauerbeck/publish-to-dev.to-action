@@ -1,0 +1,5 @@
+name: 'Publish Dev.to Article'
+description: 'Publish article to Dev.to blogging platform'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
