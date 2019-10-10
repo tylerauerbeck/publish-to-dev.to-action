@@ -39,7 +39,7 @@ jobs:
       env:
         DEV_TO_TOKEN: ${{ secrets.DEV_TO_TOKEN }}
         PR_LIST_FILE: "/github/home/pr-files"
-
+```
 ## Requirements:
 
 You'll notice that the above example relies on two environment variables: `DEV_TO_TOKEN` and `PR_LIST_FILE`. 
