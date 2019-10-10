@@ -12,7 +12,7 @@ This action takes a file that provides a listing of files that you are intereste
 
 This action assumes that you are using frontmatter in your markdown to provide a number of required fields. This was done as it seemed the easiest way to provide a number of the required fields that the api expects without having to rely on scraping and parsing information from additional files, etc. This could be re-evaluated in the future if necessary.
 
-Example:
+Frontmatter Example:
 ```
 ---
 title: Hello, World!
