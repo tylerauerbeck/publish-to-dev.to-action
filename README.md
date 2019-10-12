@@ -26,7 +26,7 @@ This is a test
 To see a full list of available fields for frontmatter, please look here [here](https://docs.dev.to/api/#tag/articles/paths/~1articles/post)
 
 ## Workflow Example
-```
+```yaml
 name: Publish to Dev.to
 on: [pullrequest]
 jobs:
