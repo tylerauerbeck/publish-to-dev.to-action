@@ -8,10 +8,10 @@ API_ENDPOINT = "https://dev.to/api/articles"
 PR = os.getenv('PR_LIST_FILE')
 API_KEY = os.getenv('DEV_TO_TOKEN')
 STATUS=0
-PAGE=0
 
 # get_article_id allows us to find an article id by attempting to match against the title
 def get_article_id(title):
+    PAGE=0
     r = requests.get(url = API_ENDPOINT + "/me/all?page=" + str(PAGE), headers = headers)
     article_data = r.json()
     while article_data:
