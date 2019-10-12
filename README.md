@@ -2,7 +2,7 @@
 
 ## Disclaimer
 
-This is a work in progress. Currently it provides initial functionality to publish a new article to the Dev.to blogging platform. Being able to update articles 
+This is a work in progress. Currently it provides initial functionality to publish\update an article to the Dev.to blogging platform.
 
 ## What does this action do?
 
